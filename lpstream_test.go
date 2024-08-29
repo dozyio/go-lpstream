@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dozyio/lpstream"
+	"github.com/dozyio/go-lpstream"
 )
 
 // MockReadWriter is a mock implementation of io.ReadWriter that supports SetReadDeadline
