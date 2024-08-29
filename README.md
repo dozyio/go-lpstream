@@ -30,7 +30,7 @@ func handler(s network.Stream) {
 ## Example with context
 
 ```go
-func handler(s networkStream) {
+func handler(s network.Stream) {
     lps := lpstream.New(s)
 
     ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
